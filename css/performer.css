@@ -13,18 +13,19 @@
 .singer-name {
     display: block;
     font-size: 1.17em;
-    margin-block-start: 1em;
+    /* margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-inline-end: 0px; */
     font-weight: bold;
+    margin: 0 0 5px 0;
 }
 
 .singer-line {
     border: 1px solid #97989b;
     width: 30px;
     margin-left: 0;
-    margin-top: 5.5px;
+    margin-bottom: 5.5px;
 }
 
 .singer-occupation {
@@ -66,7 +67,7 @@
     grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
     gap: 2rem;
     /* overflow: hidden; */
-    height: 510px;
+    /* height: 510px; */
     position: relative;
     padding: 1rem 0;
 }
@@ -81,7 +82,30 @@
     background-size: 20% 18%;
     background-repeat: no-repeat;
 }
-
+#singer-3, #singer-4, #singer-5 , #singer-6{
+    display: none;
+}
+.moreSingerBtn-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.moreSingerBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 28px;
+    width: 80%;
+    height: 50px;
+}
+.moreSingerBtn-Icon{
+   width: 22px;
+   rotate: 90deg;
+}
 @media screen and (min-width: 768px) {
     #main {
         display: grid;
@@ -109,5 +133,11 @@
         width: 60%;
         position: relative;
         margin-left: 12px;
+    }
+    #singer-3, #singer-4, #singer-5 , #singer-6{
+        display: flex;
+    }
+    .moreSingerBtn-Container{
+        display: none;
     }
 }

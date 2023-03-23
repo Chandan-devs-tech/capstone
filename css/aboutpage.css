@@ -1,0 +1,98 @@
+
+
+.about-container {
+    /* padding: 0px 20px; */
+    padding-top: 130px;
+    padding-bottom: 70px;
+}
+.invitation-content-about{
+    
+    text-align: center;
+}
+.invitation-content-about h1 {
+    color: #e63d09;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+.invitation-content-about .welcome {
+    color: #e63d09;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.invitation-content-about p {
+    color: #0e111a;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    padding: 24px 10px ;
+    background-color: #fff;
+    border: 2px solid #fff;
+    max-width: 42rem;
+    margin-top: 3rem;
+}
+.contact-text {
+    color: #7A7A7A;
+    font-weight: 700;
+font-size: 12px;
+line-height: 25px;
+}
+.venue-about{
+    color: #7A7A7A;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 25px;
+text-decoration: underline;
+}
+/*Logo section design*/
+.logo-section-container{
+    padding: 15px;
+    margin-top: 34px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-bottom: 1px solid #7A7A7A;
+}
+.logo-section-title, .past-title{
+   width: 85%;
+    font-style: normal;
+    text-align: center;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+}
+.logo-section-text{
+    margin-top: 10px;
+    font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 21px;
+color: #838383;
+text-align: center;
+}
+.logo-section-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+.logo-section-img{
+    width: 90%;
+
+}
+.past-rock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px){
+    .about-container {
+        padding: 80px 20px;
+    }
+}

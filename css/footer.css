@@ -1,0 +1,34 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 245px;
+}
+.footer-container{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footer-logo{
+   margin-right: 10%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo-img{
+    width: 100%;
+}
+.footer-adress{
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:768px){
+    .footer{
+        display: none;
+    }
+
+}
