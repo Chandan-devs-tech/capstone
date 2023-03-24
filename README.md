@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+
   <img src="Assets/LogoOfRock&Roll.jpg" alt="logo" width="250"  height="auto" />
   <br/>
 
@@ -97,6 +97,10 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link]()
+
+  <img src="Assets/Capstone_Project-Screenshot-Of-Desktop_Version.png" alt="desktop-version" width="800"  height="auto" />
+
+  <img src="Assets/Capstone_Project-Screenshot-Of-Mobile_Version.png" alt="mobile-version" width="375"  height="auto" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
