@@ -98,7 +98,11 @@
 
 - [Live Demo Link]()
 
+- Desktop Version
+
   <img src="Assets/Capstone_Project-Screenshot-Of-Desktop_Version.png" alt="desktop-version" width="800"  height="auto" />
+
+- Mobile Version
 
   <img src="Assets/Capstone_Project-Screenshot-Of-Mobile_Version.png" alt="mobile-version" width="375"  height="auto" />
 
@@ -220,7 +224,7 @@
 
 - I would like to express my gratitude to the following individuals and resources who have inspired and contributed to this project:
 
-  - [SanaTameem](https://github.com/SanaTameem)
+  - [SanaTameem](https://www.linkedin.com/in/sana-tameem-a63b55240/)
   - [Nemwel Boniface](https://twitter.com/nemwel_bonie)
 
 - Their work and insights have helped me to develop my skills and understanding, and have contributed to the success of this project. I also want to thank the Microverse community for their collective efforts in making software development accessible and collaborative.
