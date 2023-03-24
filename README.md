@@ -5,7 +5,7 @@
   <img src="Assets/LogoOfRock&Roll.jpg" alt="logo" width="250"  height="auto" />
   <br/>
 
-  <h3><b>ROCK MUSICAL CONCERT PROJECT</b></h3>
+  <h3><b>MUSICAL CONCERT PROJECT</b></h3>
 
 </div>
 
