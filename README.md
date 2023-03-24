@@ -2,10 +2,10 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="Assets/LogoOfRock_Roll.png" alt="logo" width="140"  height="auto" />
+  <img src="Assets/LogoOfRock&Roll.jpg" alt="logo" width="250"  height="auto" />
   <br/>
 
-  <h3><b>Rock music concert project</b></h3>
+  <h3><b>ROCK MUSICAL CONCERT PROJECT</b></h3>
 
 </div>
 
@@ -170,7 +170,7 @@
 - GitHub: [Chanadan Gupta](@Chandan-devs-tech)
 - Twitter: [Chandan Gupta](@ChandanGuptaDev)
 - LinkedIn: [Chandan Gupta](www.linkedin.com/in/chandangupta-devs)
-- Slack: [Chandan Gupta](@Chandan Gupta)
+- Slack: [Chandan Gupta](@ChandanGupta)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
