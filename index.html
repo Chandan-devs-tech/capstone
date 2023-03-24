@@ -4,12 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!-- <link rel="stylesheet" href="css/mobile.css" /> -->
-    <!-- <link rel="stylesheet" href="css/desktop.css" /> -->
+    <title>Rock&Roll</title>
+    <!-- stylesheet -->
     <link rel="stylesheet" href="css/homepage.css" />
     <link rel="stylesheet" href="css/activity.css" />
-    <link rel="stylesheet" href="css/performer.css" />
     <link rel="stylesheet" href="css/performer.css" />
     <link rel="stylesheet" href="css/sponser.css" />
     <link rel="stylesheet" href="css/footer.css">
@@ -19,18 +17,11 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
   </head>
   <body>
-    <div id="header" class="header">
+    <section id="header" class="header">
       <!-----------------------------------First Header------------------------------ -->
-      <div class="top-header">
+      <header class="top-header">
         <div class="container top-header-container">
           <ul class="top-header-content">
             <li>
@@ -54,7 +45,7 @@
             <li><a href="#" class="login-btn">Logout</a></li>
           </ul>
         </div>
-      </div>
+      </header>
       <!-- ---------------------Navbar------------------------------------- -->
       <nav id="navbar" class="navbar">
         <div class="container navbar-container">
@@ -69,8 +60,8 @@
                 <a class="about-item" href="./about.html">About</a>
               </li>
               <li class="items"><a class="item" href="#program">Program</a></li>
-              <li class="items"><a class="item" href="#guest">Feature</a></li>
-              <li class="items"><a class="item" href="#partner">Sponsor</a></li>
+              <li class="items"><a class="item" href="#singer">Feature</a></li>
+              <li class="items"><a class="item" href="#sponser">Sponsor</a></li>
               <li class="items">
                 <a class="item" href="./about.html">News</a>
               </li>
@@ -83,12 +74,24 @@
         <div class="menu-btn">
           <div class="hamburger">
             <a href="#"
-              ><img src="./Assets/mobile_menu 1.svg" alt="hamburger"
+              ><img src="./Assets/mobile_menu 1.svg" alt="hamburger" class="hamBtn"
             /></a>
           </div>
         </div>
+        <div class="mob-menu">
+          <ul class="menu-list">
+            <a href="index.html"><li class="menu-items">Home</li></a>
+            <a href="about.html"><li class="menu-items">About</li></a>
+            <a href="#activity"><li class="menu-items">Program</li></a>
+            <a href="#singer"><li class="menu-items">Feature</li></a>
+            <a href="#sponsor"><li class="menu-items">Sponser</li></a>
+            <a href="#"><li class="menu-items">News</li></a>
+            <a href="#"><li class="menu-items">CC Campaign</li></a>
+          </ul>
+          <div class="closeBtn">&times;</div>
+        </div>
       </nav>
-          </div>
+    </section>
       <!-- Homepage Section -->
       <section class="homepage">
         <div class="overlay">
@@ -226,7 +229,7 @@
         <div class="container">
           <div class="sponser-content">
             <h2 class="mainTitle sponser-title">
-              Sponser
+              Sponsor
               <hr class="red-line" />
             </h2>
             <div class="sponser-list">
@@ -255,17 +258,16 @@
           </div>
         </div>
       </section>
-
     <footer class="footer">
       <div class="footer-container">
         <div class="footer-logo">
-            <img src="./Assets/logo.png" alt="logo-image" class="footer-logo-img">
+            <img src="./Assets/logo-remove-bg.png" alt="logo-image" class="footer-logo-img">
         </div>
         <div class="footer-adress">
-            <p>
-              2023 Rock hall record swap<br />
-              Some Rights Reserved
-            </p>
+          <div class="footer-adress">
+            <p class="footer-para-home">2023 Rock hall record swap.Some Rights Reserved <br>
+              달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다.
+              자세한 이용기능 내용과 허락조건은 http://rockroll.org/licences/by/2.0/kr 를 보세요.</p>
         </div>
       </div>
     </footer>

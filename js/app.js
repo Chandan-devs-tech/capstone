@@ -11,8 +11,6 @@ const mainContainer=document.createElement("div");
 mainContainer.id="main";
 performerContainer.insertAdjacentElement("afterend",mainContainer);
 
-// const subMain=document.querySelector(".singer-container");
-// mainContainer.insertAdjacentElement("beforeend",htmlStructure);
 
 const singer =[
     {
@@ -107,13 +105,22 @@ moreBtn.addEventListener('click', ()=>{
         singer.style.display='flex';
     });
 });
-// const singerSubContainer=document.getElementsByClassName("singer-container");
-// console.log(singerSubContainer);
-// console.log(performerContainer);
 
-// const subMain=document.getElementsByClassName(".singer-container");
-// console.log(subMain);
-// mainContainer.insertAdjacentElement("beforeend",subMain);
+// Mobile menu
 
-// mainContainer.insertAdjacentElement("beforeend", html);
-// console.log(html)
+const ham=document.querySelector(".hamBtn");
+const closeBtn=document.querySelector(".closeBtn");
+const mobMenu=document.querySelector(".mob-menu");
+
+
+ham.addEventListener('click',()=>{
+    mobMenu.style.display="flex";
+});
+
+closeBtn.addEventListener('click',()=>{
+    mobMenu.style.display="none";
+});
+
+mobMenu.addEventListener('click',()=>{
+    mobMenu.style.display="none";
+});
